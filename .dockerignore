@@ -1,0 +1,17 @@
+# Ignore node_modules to avoid including dependencies in the image
+node_modules
+
+# Ignore development and debugging files
+*.log
+*.ts
+*.map
+*.md
+.dockerignore
+.editorconfig
+.eslintrc
+.git
+.gitignore
+npm-debug.log
+
+# Ignore any other files or directories that are not needed in the image
+# Add specific patterns as needed for your project
