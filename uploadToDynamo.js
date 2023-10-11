@@ -2,7 +2,7 @@ const AWS = require('aws-sdk');
 const async = require('async');
 require('dotenv').config();
 
-const dvd = require('../dao/dvd');
+const dvd = require('./dao/dvd');
 
 // Configure your AWS credentials
 AWS.config.update({
@@ -212,7 +212,7 @@ const docClient = new AWS.DynamoDB.DocumentClient();
 //     }
 // ];
 // DynamoDB table name
-const tableName = 'fz_dvds';
+const tableName = 'fz_dvd';
 
 // Function to upload data to DynamoDB
 function uploadToDynamoDB(item, callback) {

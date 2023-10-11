@@ -16,15 +16,15 @@ router.get('/team', function(req, res, next) {
   }
 });
 
-router.get('/all/:location', function(req, res, next) {
+router.get('/all/:location',async function(req, res, next) {
   const param = req.params.location;
   console.log('Routed to dvd/all/' + param);
 
-  const result = dvd.query_by_arg(
+  const result = await dvd.query_by_arg_dynamo(
     param);
   if (result) {
     res.setHeader('content-type', 'application/json');
-    res.end(JSON.stringify(result));
+    res.json(result);
   } else {
     next(createError(404));
   }

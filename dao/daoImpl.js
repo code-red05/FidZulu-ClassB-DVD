@@ -15,7 +15,7 @@ AWS.config.update({
 const docClient = new AWS.DynamoDB.DocumentClient();
 
 // DynamoDB table name
-const tableName = 'fz_dvds';
+const tableName = 'fz_dvd';
 
 // Function to get all items from DynamoDB
 function getAllDataFromDynamoDB() {
