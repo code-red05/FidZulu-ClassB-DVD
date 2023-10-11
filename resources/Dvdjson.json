@@ -10,7 +10,7 @@
         "format": "Blu-ray",
         "runtime": "148 minutes",
         "releaseYear": 2010,
-        "imageUrl": "https://example.com/dvds/4001"
+        "imageUrl": "https://m.media-amazon.com/images/I/71V-ga90kwL._SX522_.jpg"
     },
     {
         "productId": 4002,
@@ -23,7 +23,7 @@
         "format": "DVD",
         "runtime": "136 minutes",
         "releaseYear": 1999,
-        "imageUrl": "https://example.com/dvds/4002"
+        "imageUrl": "https://m.media-amazon.com/images/I/51zBLh-muVL._SX300_SY300_QL70_FMwebp_.jpg"
     },
     {
         "productId": 4003,
@@ -36,7 +36,7 @@
         "format": "Blu-ray",
         "runtime": "154 minutes",
         "releaseYear": 1994,
-        "imageUrl": "https://example.com/dvds/4003"
+        "imageUrl": "https://m.media-amazon.com/images/I/81i+ZyhEN-L._SX522_.jpg"
     },
     {
         "productId": 4004,
@@ -49,7 +49,7 @@
         "format": "DVD",
         "runtime": "162 minutes",
         "releaseYear": 2009,
-        "imageUrl": "https://example.com/dvds/4004"
+        "imageUrl": "https://m.media-amazon.com/images/I/91OETGBJyjL._SX679_.jpg"
     },
     {
         "productId": 4005,
@@ -62,7 +62,7 @@
         "format": "Blu-ray",
         "runtime": "142 minutes",
         "releaseYear": 1994,
-        "imageUrl": "https://example.com/dvds/4005"
+        "imageUrl": "https://m.media-amazon.com/images/I/91a8IcF9y5L._SX522_.jpg"
     },
     {
         "productId": 4006,
@@ -75,7 +75,7 @@
         "format": "DVD",
         "runtime": "152 minutes",
         "releaseYear": 2008,
-        "imageUrl": "https://example.com/dvds/4006"
+        "imageUrl": "https://i.ebayimg.com/images/g/Y7EAAOSw3ndghuPZ/s-l500.jpg"
     },
     {
         "productId": 4007,
@@ -88,7 +88,7 @@
         "format": "Blu-ray",
         "runtime": "127 minutes",
         "releaseYear": 1993,
-        "imageUrl": "https://example.com/dvds/4007"
+        "imageUrl": "https://m.media-amazon.com/images/I/91e97JmitLL._SX679_.jpg"
     },
     {
         "productId": 4008,
@@ -101,7 +101,7 @@
         "format": "DVD",
         "runtime": "142 minutes",
         "releaseYear": 1994,
-        "imageUrl": "https://example.com/dvds/4008"
+        "imageUrl": "https://m.media-amazon.com/images/I/41-wIliU5QL.jpg"
     },
     {
         "productId": 4009,
@@ -114,7 +114,7 @@
         "format": "Blu-ray",
         "runtime": "155 minutes",
         "releaseYear": 2000,
-        "imageUrl": "https://example.com/dvds/4009"
+        "imageUrl": "https://m.media-amazon.com/images/I/91EEJjgpvHL._SX679_.jpg"
     },
     {
         "productId": 4010,
@@ -127,7 +127,7 @@
         "format": "DVD",
         "runtime": "169 minutes",
         "releaseYear": 2014,
-        "imageUrl": "https://example.com/dvds/4010"
+        "imageUrl": "https://m.media-amazon.com/images/I/A1JVqNMI7UL._SY679_.jpg"
     },
     {
         "productId": 4011,
@@ -140,7 +140,7 @@
         "format": "Blu-ray",
         "runtime": "175 minutes",
         "releaseYear": 1972,
-        "imageUrl": "https://example.com/dvds/4011"
+        "imageUrl": "https://i.ebayimg.com/images/g/EqYAAOxyuPtQ9tLT/s-l500.jpg"
     },
     {
         "productId": 4012,
@@ -153,7 +153,7 @@
         "format": "DVD",
         "runtime": "115 minutes",
         "releaseYear": 1982,
-        "imageUrl": "https://example.com/dvds/4012"
+        "imageUrl": "https://i.ebayimg.com/images/g/pv0AAOSwI81kssCA/s-l500.jpg"
     },
     {
         "productId": 4013,
@@ -166,7 +166,7 @@
         "format": "Blu-ray",
         "runtime": "195 minutes",
         "releaseYear": 1993,
-        "imageUrl": "https://example.com/dvds/4013"
+        "imageUrl": "https://i.ebayimg.com/images/g/vhoAAOSwOdlj9eVo/s-l1600.jpg"
     },
     {
         "productId": 4014,
@@ -179,7 +179,7 @@
         "format": "DVD",
         "runtime": "178 minutes",
         "releaseYear": 2001,
-        "imageUrl": "https://example.com/dvds/4014"
+        "imageUrl": "https://i.ebayimg.com/images/g/qwoAAOSwOMdZRF-Z/s-l500.jpg"
     },
     {
         "productId": 4015,
@@ -192,71 +192,6 @@
         "format": "Blu-ray",
         "runtime": "143 minutes",
         "releaseYear": 2012,
-        "imageUrl": "https://example.com/dvds/4015"
-    },
-    {
-        "productId": 4016,
-        "productName": "Titanic",
-        "productDescription": "A romantic drama directed by James Cameron set aboard the ill-fated ship.",
-        "price": 12.99,
-        "rating": 4.7,
-        "genre": "Romance",
-        "director": "James Cameron",
-        "format": "DVD",
-        "runtime": "195 minutes",
-        "releaseYear": 1997,
-        "imageUrl": "https://example.com/dvds/4016"
-    },
-    {
-        "productId": 4017,
-        "productName": "The Silence of the Lambs",
-        "productDescription": "A psychological thriller directed by Jonathan Demme.",
-        "price": 11.99,
-        "rating": 4.8,
-        "genre": "Thriller",
-        "director": "Jonathan Demme",
-        "format": "Blu-ray",
-        "runtime": "118 minutes",
-        "releaseYear": 1991,
-        "imageUrl": "https://example.com/dvds/4017"
-    },
-    {
-        "productId": 4018,
-        "productName": "The Revenant",
-        "productDescription": "A survival drama directed by Alejandro González Iñárritu.",
-        "price": 14.99,
-        "rating": 4.7,
-        "genre": "Drama",
-        "director": "Alejandro González Iñárritu",
-        "format": "DVD",
-        "runtime": "156 minutes",
-        "releaseYear": 2015,
-        "imageUrl": "https://example.com/dvds/4018"
-    },
-    {
-        "productId": 4019,
-        "productName": "Toy Story",
-        "productDescription": "A beloved animated film by Pixar.",
-        "price": 10.99,
-        "rating": 4.9,
-        "genre": "Animation",
-        "director": "John Lasseter",
-        "format": "Blu-ray",
-        "runtime": "81 minutes",
-        "releaseYear": 1995,
-        "imageUrl": "https://example.com/dvds/4019"
-    },
-    {
-        "productId": 4020,
-        "productName": "Harry Potter and the Sorcerer's Stone",
-        "productDescription": "The first installment in the Harry Potter film series, directed by Chris Columbus.",
-        "price": 13.99,
-        "rating": 4.6,
-        "genre": "Fantasy",
-        "director": "Chris Columbus",
-        "format": "DVD",
-        "runtime": "152 minutes",
-        "releaseYear": 2001,
-        "imageUrl": "https://example.com/dvds/4020"
+        "imageUrl": "https://i.ebayimg.com/images/g/8c0AAOSwwotk5UMs/s-l1600.jpg"
     }
 ]

@@ -2,23 +2,23 @@ var express = require('express');
 var router = express.Router();
 var createError = require('http-errors');
 const dvd = require('../dao/dvd');
-// const team = require('../modules/team');
+const team = require('../dao/team');
 
-// router.get('/team', function(req, res, next) {
-//   console.log('got into /team');
+router.get('/team', function(req, res, next) {
+  console.log('got into /team');
 
-//   const result = team.list();
-//   if (result) {
-//     res.setHeader('content-type', 'application/json');
-//     res.end(JSON.stringify(result));
-//   } else {
-//     next(createError(404));
-//   }
-// });
+  const result = team.list();
+  if (result) {
+    res.setHeader('content-type', 'application/json');
+    res.end(JSON.stringify(result));
+  } else {
+    next(createError(404));
+  }
+});
 
 router.get('/all/:location', function(req, res, next) {
   const param = req.params.location;
-  console.log('got into dvd/:location ' + param);
+  console.log('Routed to dvd/all/' + param);
 
   const result = dvd.query_by_arg(
     param);
