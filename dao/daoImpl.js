@@ -18,7 +18,7 @@ const docClient = new AWS.DynamoDB.DocumentClient();
 const tableName = 'fz_dvd';
 
 // Function to get all items from DynamoDB
-function getAllDataFromDynamoDB() {
+exports.getAllDataFromDynamoDB = () => {
 
   const params = {
     TableName: tableName,
@@ -38,7 +38,7 @@ function getAllDataFromDynamoDB() {
 }
 
 // Call the function to retrieve all items from the DynamoDB table
-function getAllDataFromDynamoDB(callback) {
+exports.getAllDataFromDynamoDB = (callback) => {
     const params = {
         TableName: tableName,
     };
@@ -61,4 +61,4 @@ function getAllDataFromDynamoDB(callback) {
     
 }
 
-module.exports = getAllDataFromDynamoDB;
+// module.exports = getAllDataFromDynamoDB;

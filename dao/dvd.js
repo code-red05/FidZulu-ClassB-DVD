@@ -11,17 +11,17 @@ exports.list = () => {
     return JSON.parse(read_json_file());
 }
 
-const getAllDataFromDynamoDB = require('./daoImpl');
+const daoImpl = require('./daoImpl');
 
 
 
-exports.query_by_arg_dynamo = async (value) => {
+exports.get_dvds_dynamo = async (value) => {
     if (value !== "IN" && value !== "IE" && value !== "US-NC") {
         return null;
     }
     try {
         // Use the asynchronous DAO function to get data from DynamoDB
-        const data = await getAllDataFromDynamoDB();
+        const data = await daoImpl.getAllDataFromDynamoDB();
         // console.log(data)
         // Process the data based on the location value
         const results = data.map((item) => {
@@ -44,12 +44,14 @@ exports.query_by_arg_dynamo = async (value) => {
         return results;
     } catch (error) {
         console.error('Error querying data from DynamoDB:', error);
-        return null;
+        console.log("switching to local json data...");
+        return this.get_dvds(value);
+        // return null;
     }
 }
 
-exports.query_by_arg = (value) => {
-    if (value !== "IN" && value !== "IRE" && value !== "US-NC") {
+exports.get_dvds = (value) => {
+    if (value !== "IN" && value !== "IE" && value !== "US-NC") {
         return null;
     }
     let results = JSON.parse(read_json_file());
@@ -59,7 +61,7 @@ exports.query_by_arg = (value) => {
         if (value === "IN") {
             product.price *= 83;
             product.price *= 1.18;
-        } else if (value === "IRE") {
+        } else if (value === "IE") {
             product.price *= 0.94;
             product.price *= 1.23;
         }
@@ -71,23 +73,6 @@ exports.query_by_arg = (value) => {
     return results;
 }
 
-// exports.post_toy = (toys) => {
-//     if (toys.hasOwnProperty("name") && toys.hasOwnProperty("brand") && toys.hasOwnProperty("age_group") &&
-//      toys.hasOwnProperty("price") && Object.keys(toys).length == 4) {
-//         let results = JSON.parse(read_json_file());
-//         results[results.length] = toys;
-//         const data = JSON.stringify(results);
-//         fs.writeFile("../Resources/Toysjson.json", data, err=>{
-//             if(err){
-//                 console.log("Error writing file" ,err)
-//             } else {
-//                 console.log('JSON data is written to the file successfully')
-//             }
-//         })
-//         return toys;
-//     }
-//     return null;
-// }
 
 exports.reset_json = (content) => {
     const data = JSON.stringify(content);
