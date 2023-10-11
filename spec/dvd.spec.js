@@ -1,7 +1,7 @@
 const request = require("request");
 
 const base_url = 'http://localhost:3035/';
-const dvd_url = base_url + 'dvd/all/India'; // Modify the URL to test /dvd/India
+const dvd_url = base_url + 'dvd/all/IN'; // Modify the URL to test /dvd/IN
 const not_found_url = base_url + 'dvd/'; // Modify the URL to test /dvd/
 
 describe("DVD Server E2E Test", function () {
