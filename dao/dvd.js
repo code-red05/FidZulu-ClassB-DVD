@@ -16,7 +16,7 @@ const getAllDataFromDynamoDB = require('./daoImpl');
 
 
 exports.query_by_arg_dynamo = async (value) => {
-    if (value !== "IN" && value !== "IRE" && value !== "US-NC") {
+    if (value !== "IN" && value !== "IE" && value !== "US-NC") {
         return null;
     }
     try {
@@ -29,7 +29,7 @@ exports.query_by_arg_dynamo = async (value) => {
             if (value === "IN") {
                 resultItem.price *= 83;
                 resultItem.price *= 1.18;
-            } else if (value === "IRE") {
+            } else if (value === "IE") {
                 resultItem.price *= 0.94;
                 resultItem.price *= 1.23;
             }

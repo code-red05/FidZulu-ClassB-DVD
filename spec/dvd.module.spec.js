@@ -16,7 +16,7 @@ describe("Dvd module test", () => {
     });
 
     it("with location Ireland", async () => {
-      const results = await dvd.query_by_arg_dynamo("IRE");
+      const results = await dvd.query_by_arg_dynamo("IE");
       expect(results[0].price).toBeCloseTo(12.71, 3); // Close approximation for floating-point comparison
     });
 
