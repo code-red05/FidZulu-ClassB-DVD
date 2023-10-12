@@ -95,18 +95,23 @@ The application uses a sample dataset for DVD products. You can replace this dat
 To run the application, execute the desired functions within your Node.js environment. You can also create your own routes and endpoints based on these functions for use in your web application or API.
 
 - Installation
-
+  
+    ```
     npm install
     npm install express -g 
-
+    ```
+    
 - Run the app
-
+  
+    ```
     npm start
-
+    ```
+    
  - Run tests
-
-   npm test
    
+   ```
+   npm test
+   ```
 
 ## Credits
 
